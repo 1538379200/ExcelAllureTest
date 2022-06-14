@@ -11,9 +11,6 @@ excel数据驱动结合allure生成报告代码
 
 ### read_excel_step.py
 此文件是openpyxl进行数据处理，但是并未增加写入功能，与前面逻辑稍有不同，前面的文件可能会不符合allure的用例显示设计逻辑，而此文件则是为了更符合allure的逻辑，但是excel中的数据会出现变化，此文件中的模块相当于一个用例，如果想再增加模块，则自行在excel中添加一个模块列，将原模块列设置成用例名称，数据提取方式需要稍作修改
-<<<<<<< HEAD
 
 ### read_excel_unittest.py
 此文件作为unittest结合HTMLTestRunner生成报告，仅做写入excel准备，未完成excel写入功能
-=======
->>>>>>> 5543a24c914f42e3e23972cb0b9acf3ac84adc0d
